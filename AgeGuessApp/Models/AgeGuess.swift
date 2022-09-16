@@ -8,7 +8,7 @@
 import Foundation
 
 // Struct for API call info; specifically name and age
-struct AgeGuess: Decodable {
+struct AgeGuess: Codable {
     let name: String
     let age: Int
     let count: Int

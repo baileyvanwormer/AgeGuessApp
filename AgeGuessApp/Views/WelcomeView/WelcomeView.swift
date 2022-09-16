@@ -25,15 +25,15 @@ struct WelcomeView: View {
                 AgeGuessView()
             } label: {
                 Text("Get Started")
+                    .foregroundColor(.black)
                     .padding(.vertical, 6)
                     .padding(.horizontal, 12)
-                    .foregroundColor(.primary)
                     .overlay(
                                 RoundedRectangle(cornerRadius: 20)
-                                    .stroke(.primary, lineWidth: 1)
+                                    .stroke(.black, lineWidth: 1)
                                     .frame(width: 200)
                             )
-            }.buttonStyle(PlainButtonStyle())
+            }
 
             Spacer()
         }

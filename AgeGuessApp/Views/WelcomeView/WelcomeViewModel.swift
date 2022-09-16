@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+// No logic to implement here, welcome view is already stupid

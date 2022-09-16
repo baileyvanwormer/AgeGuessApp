@@ -15,15 +15,17 @@ struct AgeGuessView: View {
         VStack {
             Spacer()
             
-            Text("Your Predicted Age...")
-                .font(.title2)
-                .bold()
-            
-            Text("\(viewModel.guess)")
-                .font(.system(size: 200))
-                .padding()
-            
-            Text("\(viewModel.count) other people share this name")
+            VStack {
+                Text("Your Predicted Age...")
+                    .font(.title2)
+                    .bold()
+                
+                Text("\(viewModel.guess)")
+                    .font(.system(size: 200))
+                    .padding()
+                
+                Text("\(viewModel.count) people were used to form this prediction.")
+            }
             
             Spacer()
             
@@ -44,8 +46,6 @@ struct AgeGuessView: View {
             }
             .padding()
             
-            Spacer()
-            
             Button {
                 viewModel.apiCall()
             } label: {
@@ -61,7 +61,6 @@ struct AgeGuessView: View {
             
             Spacer()
         }
-        .navigationBarBackButtonHidden(true)
     }
 }
 
