@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		621A2F0C28D41E7A0052F7FE /* AgeGuessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A2F0B28D41E7A0052F7FE /* AgeGuessAppApp.swift */; };
+		621A2F0E28D41E7A0052F7FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A2F0D28D41E7A0052F7FE /* ContentView.swift */; };
+		621A2F1028D41E7B0052F7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621A2F0F28D41E7B0052F7FE /* Assets.xcassets */; };
+		621A2F1328D41E7B0052F7FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621A2F1228D41E7B0052F7FE /* Preview Assets.xcassets */; };
+		621A2F2028D41F140052F7FE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A2F1F28D41F140052F7FE /* WelcomeView.swift */; };
+		621A2F2228D41F220052F7FE /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A2F2128D41F220052F7FE /* WelcomeViewModel.swift */; };
+		621A2F2428D41F2D0052F7FE /* AgeGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A2F2328D41F2D0052F7FE /* AgeGuessView.swift */; };
+		621A2F2628D41F3E0052F7FE /* AgeGuessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A2F2528D41F3E0052F7FE /* AgeGuessViewModel.swift */; };
+		621A2F2828D41F4D0052F7FE /* AgeGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621A2F2728D41F4D0052F7FE /* AgeGuess.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		621A2F0828D41E7A0052F7FE /* AgeGuessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeGuessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		621A2F0B28D41E7A0052F7FE /* AgeGuessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeGuessAppApp.swift; sourceTree = "<group>"; };
+		621A2F0D28D41E7A0052F7FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		621A2F0F28D41E7B0052F7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621A2F1228D41E7B0052F7FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		621A2F1F28D41F140052F7FE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		621A2F2128D41F220052F7FE /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		621A2F2328D41F2D0052F7FE /* AgeGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeGuessView.swift; sourceTree = "<group>"; };
+		621A2F2528D41F3E0052F7FE /* AgeGuessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeGuessViewModel.swift; sourceTree = "<group>"; };
+		621A2F2728D41F4D0052F7FE /* AgeGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeGuess.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621A2F0528D41E7A0052F7FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		621A2EFF28D41E7A0052F7FE = {
+			isa = PBXGroup;
+			children = (
+				621A2F0A28D41E7A0052F7FE /* AgeGuessApp */,
+				621A2F0928D41E7A0052F7FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		621A2F0928D41E7A0052F7FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621A2F0828D41E7A0052F7FE /* AgeGuessApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621A2F0A28D41E7A0052F7FE /* AgeGuessApp */ = {
+			isa = PBXGroup;
+			children = (
+				621A2F1B28D41EB60052F7FE /* Services */,
+				621A2F1A28D41EA20052F7FE /* Views */,
+				621A2F1928D41E9C0052F7FE /* Models */,
+				621A2F0B28D41E7A0052F7FE /* AgeGuessAppApp.swift */,
+				621A2F0D28D41E7A0052F7FE /* ContentView.swift */,
+				621A2F0F28D41E7B0052F7FE /* Assets.xcassets */,
+				621A2F1128D41E7B0052F7FE /* Preview Content */,
+			);
+			path = AgeGuessApp;
+			sourceTree = "<group>";
+		};
+		621A2F1128D41E7B0052F7FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				621A2F1228D41E7B0052F7FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		621A2F1928D41E9C0052F7FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				621A2F2728D41F4D0052F7FE /* AgeGuess.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		621A2F1A28D41EA20052F7FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				621A2F1E28D41EED0052F7FE /* WelcomeView */,
+				621A2F1D28D41ED20052F7FE /* AgeGuessView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		621A2F1B28D41EB60052F7FE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		621A2F1D28D41ED20052F7FE /* AgeGuessView */ = {
+			isa = PBXGroup;
+			children = (
+				621A2F2328D41F2D0052F7FE /* AgeGuessView.swift */,
+				621A2F2528D41F3E0052F7FE /* AgeGuessViewModel.swift */,
+			);
+			path = AgeGuessView;
+			sourceTree = "<group>";
+		};
+		621A2F1E28D41EED0052F7FE /* WelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				621A2F1F28D41F140052F7FE /* WelcomeView.swift */,
+				621A2F2128D41F220052F7FE /* WelcomeViewModel.swift */,
+			);
+			path = WelcomeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621A2F0728D41E7A0052F7FE /* AgeGuessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621A2F1628D41E7B0052F7FE /* Build configuration list for PBXNativeTarget "AgeGuessApp" */;
+			buildPhases = (
+				621A2F0428D41E7A0052F7FE /* Sources */,
+				621A2F0528D41E7A0052F7FE /* Frameworks */,
+				621A2F0628D41E7A0052F7FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgeGuessApp;
+			productName = AgeGuessApp;
+			productReference = 621A2F0828D41E7A0052F7FE /* AgeGuessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		621A2F0028D41E7A0052F7FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					621A2F0728D41E7A0052F7FE = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 621A2F0328D41E7A0052F7FE /* Build configuration list for PBXProject "AgeGuessApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 621A2EFF28D41E7A0052F7FE;
+			productRefGroup = 621A2F0928D41E7A0052F7FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621A2F0728D41E7A0052F7FE /* AgeGuessApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621A2F0628D41E7A0052F7FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621A2F1328D41E7B0052F7FE /* Preview Assets.xcassets in Resources */,
+				621A2F1028D41E7B0052F7FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621A2F0428D41E7A0052F7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621A2F2628D41F3E0052F7FE /* AgeGuessViewModel.swift in Sources */,
+				621A2F0E28D41E7A0052F7FE /* ContentView.swift in Sources */,
+				621A2F2228D41F220052F7FE /* WelcomeViewModel.swift in Sources */,
+				621A2F2828D41F4D0052F7FE /* AgeGuess.swift in Sources */,
+				621A2F2428D41F2D0052F7FE /* AgeGuessView.swift in Sources */,
+				621A2F2028D41F140052F7FE /* WelcomeView.swift in Sources */,
+				621A2F0C28D41E7A0052F7FE /* AgeGuessAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		621A2F1428D41E7B0052F7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		621A2F1528D41E7B0052F7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621A2F1728D41E7B0052F7FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgeGuessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 96P36NZQGS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bailey-Van-Wormer.AgeGuessApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621A2F1828D41E7B0052F7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgeGuessApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 96P36NZQGS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bailey-Van-Wormer.AgeGuessApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621A2F0328D41E7A0052F7FE /* Build configuration list for PBXProject "AgeGuessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621A2F1428D41E7B0052F7FE /* Debug */,
+				621A2F1528D41E7B0052F7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621A2F1628D41E7B0052F7FE /* Build configuration list for PBXNativeTarget "AgeGuessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621A2F1728D41E7B0052F7FE /* Debug */,
+				621A2F1828D41E7B0052F7FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 621A2F0028D41E7A0052F7FE /* Project object */;
+}
