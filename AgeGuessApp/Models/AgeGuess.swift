@@ -11,4 +11,5 @@ import Foundation
 struct AgeGuess: Decodable {
     let name: String
     let age: Int
+    let count: Int
 }
