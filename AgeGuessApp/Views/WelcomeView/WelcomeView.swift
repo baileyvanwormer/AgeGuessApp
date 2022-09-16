@@ -21,11 +21,19 @@ struct WelcomeView: View {
             
             Spacer()
             
-            Button {
+            NavigationLink {
                 AgeGuessView()
             } label: {
                 Text("Get Started")
-            }
+                    .padding(.vertical, 6)
+                    .padding(.horizontal, 12)
+                    .foregroundColor(.primary)
+                    .overlay(
+                                RoundedRectangle(cornerRadius: 20)
+                                    .stroke(.primary, lineWidth: 1)
+                                    .frame(width: 200)
+                            )
+            }.buttonStyle(PlainButtonStyle())
 
             Spacer()
         }
